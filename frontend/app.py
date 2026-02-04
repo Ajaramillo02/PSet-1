@@ -5,7 +5,7 @@ st.set_page_config(page_title="Demand Prediction", layout="wide")
 
 st.title(" Demand Prediction Service")
 
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = "http://backend:8000"
 
 st.subheader("Backend status")
 

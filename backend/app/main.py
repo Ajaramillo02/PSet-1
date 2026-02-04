@@ -16,6 +16,7 @@ route_storage = RouteStorage()
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
+    
 
 
 @app.post("/zones", response_model=Zone)
